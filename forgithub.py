@@ -10,6 +10,6 @@ try:
     while True:
         elapsed_time = time.time() - start_time
         print(f"Vaqt: {elapsed_time:.2f} soniya", end="\r")
-        time.sleep(0.01)  # ekranni tez yangilash
+        time.sleep(0.01)  
 except KeyboardInterrupt:
     print("\nStopwatch to‘xtadi.")
